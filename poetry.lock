@@ -335,11 +335,11 @@ python-versions = "*"
 
 [[package]]
 name = "numpy"
-version = "1.22.2"
+version = "1.21.6"
 description = "NumPy is the fundamental package for array computing with Python."
 category = "main"
 optional = true
-python-versions = ">=3.8"
+python-versions = ">=3.7"
 
 [[package]]
 name = "oslash"
