@@ -15,7 +15,10 @@
 
 
 import decimal
-import importlib.metadata
+try:
+    import importlib.metadata
+except ModuleNotFoundError:
+    pass
 import json
 import os.path
 import typing
